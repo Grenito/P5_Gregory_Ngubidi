@@ -2,10 +2,10 @@
 const URL_API = 'http://localhost:3000/api/products/';
 
 // Récupération de la chaîne de requête dans l'url
-const QUERYSTRING_URL_ID = window.location.search;
+
 
 // Extraction de l'id
-const URL_ID = new URLSearchParams(QUERYSTRING_URL_ID);
+
 const ID = URL_ID.get('id');
 
 // Récupération de nos éléments en fonction de l'ID
